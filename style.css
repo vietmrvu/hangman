@@ -45,7 +45,10 @@ h1 {
   flex-direction: column;
   text-align: right;
 }
-
+div#hint {
+    margin-top: 20px;
+    width: 300px;
+}
 .wrong-letters-container p {
   margin: 0 0 5px;
 }
@@ -57,7 +60,7 @@ h1 {
 .word {
   display: flex;
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
 }
